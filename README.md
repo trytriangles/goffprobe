@@ -15,7 +15,7 @@ file attributes.
 true
 >> info.AudioBitrate
 256000
->> info.VideoBitrates // Kbps
+>> info.VideoBitrates
 1800000, 900000
 ```
 
