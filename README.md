@@ -3,7 +3,7 @@
 Go wrapper around ffprobe, providing a simplified breakdown of video and audio
 file attributes.
 
-```
+```go
 >> info := NewVideoInfo("foo.mp4")
 >> info.SimpleDescription
 "h264+av1@2700000/aac@256000"
