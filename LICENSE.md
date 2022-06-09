@@ -1,24 +1,3 @@
-# go-ffprobe
-
-Go wrapper around ffprobe, providing a simplified breakdown of video and audio
-file attributes.
-
-```
->> info := NewVideoInfo("foo.mp4")
->> info.SimpleDescription
-"h264+av1@2700000/aac@256000"
->> info.Pixels // Pixel count of highest-resolution video stream
-414720
->> info.Duration // Seconds
-618
->> info.HasMultipleVideo
-true
->> info.AudioBitrate
-256000
->> info.VideoBitrates // Kbps
-1800000, 900000
-```
-
 # License (MIT)
 
 © 2022 Ryan Plant
